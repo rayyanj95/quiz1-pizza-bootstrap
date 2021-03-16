@@ -1,0 +1,70 @@
+.img-fluid{
+  margin-top: 1em;
+}
+#heads{
+display: flex;
+justify-content: space-between;
+background-color: black;
+}
+
+#dropdownMenuButton{
+  width: 11.5em;
+  border: solid 1px black;
+}
+
+#OrderNowButton{
+  width: 11.5em;
+  align-items: center;
+}
+
+#orderbox{
+  background-color: rgb(255, 225, 225);
+  border-radius: 10px;
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.btn-group{
+  padding: 1em;
+}
+
+.dropdown{
+  padding: 0.5em;
+}
+
+.line {
+  position: relative;
+  text-align: center;
+}
+.line:after {
+  content: "";
+  border-bottom: 2px solid rgb(153, 149, 149);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+.line span {
+  padding: 0 8px;
+  background-color: white;
+  position: relative;
+  font-size: 28pt;
+}
+
+#deal1,#deal2{
+  padding: 12px;
+}
+
+#footer{
+  background-color: black;
+}
+
+#viewdeals{
+  margin: 12px;
+}
+
+.typography-4{
+  font-size: 16pt;
+}
